@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#control-panel {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#control-panel button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#control-panel button:hover {
+    background-color: #45a049;
+}
+
+#network {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    min-height: 300px;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.node {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    position: relative;
+    transition: transform 0.2s ease;
+}
+
+.node:hover {
+    transform: scale(1.1);
+}
+
+.connection {
+    width: 2px;
+    background-color: #000;
+    position: absolute;
+}
+
+#metrics {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#metrics h3 {
+    color: #333;
+}
+
+#metrics p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #555;
+}
+
+#metrics span {
+    font-weight: bold;
+    color: #333;
+}

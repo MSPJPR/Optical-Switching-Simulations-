@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optical Switching Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Optical Switching and Packet Switching Simulation</h1>
+
+    <!-- Network Control Panel -->
+    <div id="control-panel">
+        <button id="add-node">Add Node</button>
+        <button id="remove-node">Remove Node</button>
+        <button id="generate-packet">Generate Packet</button>
+    </div>
+
+    <!-- Network Visualization -->
+    <div id="network"></div>
+
+    <!-- Metrics Display -->
+    <div id="metrics">
+        <h3>Network Metrics</h3>
+        <p>Packets Generated: <span id="packets-count">0</span></p>
+        <p>Latency: <span id="latency">0 ms</span></p>
+        <p>Throughput: <span id="throughput">0 Mbps</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
